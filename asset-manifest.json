@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/hw5-jlto/static/css/main.883cad99.css",
-    "main.js": "/hw5-jlto/static/js/main.56d21451.js",
+    "main.js": "/hw5-jlto/static/js/main.10126eba.js",
     "static/js/787.28cb0dcd.chunk.js": "/hw5-jlto/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/hw5-jlto/index.html",
     "main.883cad99.css.map": "/hw5-jlto/static/css/main.883cad99.css.map",
-    "main.56d21451.js.map": "/hw5-jlto/static/js/main.56d21451.js.map",
+    "main.10126eba.js.map": "/hw5-jlto/static/js/main.10126eba.js.map",
     "787.28cb0dcd.chunk.js.map": "/hw5-jlto/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.883cad99.css",
-    "static/js/main.56d21451.js"
+    "static/js/main.10126eba.js"
   ]
 }
