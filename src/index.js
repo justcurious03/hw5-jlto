@@ -7,7 +7,6 @@ import reportWebVitals from './reportWebVitals';
 import Main from './component/Main';
 import Sub from './component/Sub';
 import {
-  BrowserRouter,
   createBrowserRouter,
   RouterProvider,
   } from "react-router-dom";
@@ -30,7 +29,7 @@ import {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+      <RouterProvider router={router} />
   </React.StrictMode>
 );
 
