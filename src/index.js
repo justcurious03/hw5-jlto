@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Main from './component/Main';
 import Sub from './component/Sub';
 import {
+  BrowserRouter,
   createBrowserRouter,
   RouterProvider,
   } from "react-router-dom";
@@ -18,18 +19,20 @@ import {
     },
     {
       path: "cats",
-      element: <Main/>,
+      element: <Main />,
     },
     {
       path: "dogs",
-      element: <Sub/>,
+      element: <Sub />,
     },
   ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <BrowserRouter>
+      <RouterProvider router={router} />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
